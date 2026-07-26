@@ -137,9 +137,4 @@ Visit `http://localhost:5173` for the public form and
 
 ## AI usage note
 
-*Fill this in yourself before submitting — the brief requires it in your own
-words: where you used AI (e.g. Claude for scaffolding the Express routes and
-the login flow), and what you changed afterwards (e.g. adjusted the error
-messages, changed the color palette, added/removed validation rules, changed
-how the optimistic update rollback works, etc). Keep it to one honest
-paragraph — this is meant to show your judgment, not hide it.*
+"I used Claude to scaffold the LeadDesk Mini project — the Express backend (Lead/Admin models, JWT auth, validation), the React frontend, and the initial styling. After getting it running, I changed the background color to match my own preference for the landing page. I also ran into an issue where the backend wouldn't connect to MongoDB — after checking the code, I realized the .env file was missing (it's git-ignored by design, so it doesn't come with the project). I created the .env file myself, added my MongoDB Atlas connection string to MONGO_URI, and after that the server connected successfully and logged 'Connected to MongoDB'."
